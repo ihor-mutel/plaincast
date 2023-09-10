@@ -10,5 +10,6 @@ RUN go install .
 
 RUN echo BBBBBBBBB
 RUN grep -r FRIENDLY_NAME /go/pkg/mod/github.com/ihor-mutel/
+RUN grep -r TEST /go/pkg/mod/github.com/ihor-mutel/
 
 ENTRYPOINT [ "plaincast" ]
