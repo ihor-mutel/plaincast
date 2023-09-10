@@ -6,8 +6,6 @@ COPY . ${GOPATH}/src/github.com/ihor-mutel/plaincast/
 RUN go mod init plaincast
 RUN go mod tidy
 
-RUN echo AAAAAAAAA
-
 RUN go install .
 
 RUN echo BBBBBBBBB
