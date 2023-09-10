@@ -1,4 +1,4 @@
 git commit -m "test commit" .
 git push
-docker build -t plaincast:test1 . --build-arg CACHEBUST="$(date +%s)"
+docker build -t plaincast:test1 . --no-cache
 docker-compose up
