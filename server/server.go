@@ -3,13 +3,13 @@ package server
 import (
 	"flag"
 
-	"github.com/aykevl/plaincast/log"
+	"github.com/ihor-mutel/plaincast/log"
 	"github.com/nu7hatch/gouuid"
 )
 
 const (
-	NAME          = "Plaincast"
-	FRIENDLY_NAME = "Plaincast"
+	NAME          = "PlaincastToSonos"
+	FRIENDLY_NAME = "PlaincastToSonos"
 	VERSION       = "0.0.1"
 	CONFIGID      = 1
 )

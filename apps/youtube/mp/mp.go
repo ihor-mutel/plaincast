@@ -7,7 +7,7 @@ import (
 	"flag"
 	"time"
 
-	"github.com/aykevl/plaincast/log"
+	"github.com/ihor-mutel/plaincast/log"
 )
 
 var logger = log.New("player", "log media player messages")
