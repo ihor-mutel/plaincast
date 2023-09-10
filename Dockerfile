@@ -15,6 +15,8 @@ RUN \
   pip install --no-cache youtube-dl \
   && youtube-dl --version
 
+ARG CACHEBUST=1
+
 WORKDIR ${GOPATH}/src/github.com/ihor-mutel/plaincast/
 COPY . ${GOPATH}/src/github.com/ihor-mutel/plaincast/
 

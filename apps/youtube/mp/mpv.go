@@ -340,6 +340,6 @@ func (mpv *MPV) eventHandler(eventChan chan State) {
 func (mpv *MPV) checkError(status C.int) {
 	if status < 0 {
 		// this C string should not be freed (it is static)
-		panic(fmt.Sprintf("mpv API error: %s (%d)", C.GoString(C.mpv_error_string(status)), int(status)))
+		panic(fmt.Sprintf("mpv API error Test: %s (%d)", C.GoString(C.mpv_error_string(status)), int(status)))
 	}
 }
