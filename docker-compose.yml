@@ -2,7 +2,7 @@ version: "2.4"
 services:
   plaincast:
     container_name: plaincast
-    image: plaincast
+    image: plaincast:test1
     restart: unless-stopped
 #     build: .
     environment:
