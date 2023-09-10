@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 
-	"/go/src/github.com/ihor-mutel/plaincast/server"
+	"plaincast/server"
 )
 
 func main() {

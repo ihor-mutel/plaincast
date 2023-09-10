@@ -13,8 +13,8 @@ import (
 	"text/template"
 	"time"
 
-	"/go/src/github.com/ihor-mutel/plaincast/apps"
-	"/go/src/github.com/ihor-mutel/plaincast/apps/youtube"
+	"plaincast/apps"
+	"plaincast/apps/youtube"
 )
 
 // This implements a UPnP/DIAL server.

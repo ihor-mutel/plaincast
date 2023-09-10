@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"/go/src/github.com/ihor-mutel/plaincast/apps/youtube/mp"
-	"/go/src/github.com/ihor-mutel/plaincast/config"
-	"/go/src/github.com/ihor-mutel/plaincast/log"
+	"plaincast/apps/youtube/mp"
+	"plaincast/config"
+	"plaincast/log"
 	"github.com/nu7hatch/gouuid"
 )
 

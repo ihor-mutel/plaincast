@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"/go/src/github.com/ihor-mutel/plaincast/config"
-	"/go/src/github.com/ihor-mutel/plaincast/log"
+	"plaincast/config"
+	"plaincast/log"
 )
 
 var MPV_PROPERTY_UNAVAILABLE = errors.New("mpv: property unavailable")

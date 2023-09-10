@@ -7,7 +7,7 @@ import (
 	"flag"
 	"time"
 
-	"/go/src/github.com/ihor-mutel/plaincast/log"
+	"plaincast/log"
 )
 
 var logger = log.New("player", "log media player messages")
