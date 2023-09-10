@@ -8,8 +8,8 @@ import (
 )
 
 const (
-	NAME          = "PlaincastToSonos"
-	FRIENDLY_NAME = "PlaincastToSonos"
+	NAME          = "PlaincastToSonos2"
+	FRIENDLY_NAME = "PlaincastToSonos2"
 	VERSION       = "0.0.1"
 	CONFIGID      = 1
 )
