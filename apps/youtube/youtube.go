@@ -190,6 +190,7 @@ func (yt *YouTube) init(arguments url.Values, stateChange chan mp.StateChange) {
 func (yt *YouTube) start(arguments url.Values) {
 
     logger.Warnln("Test AAAAAAA")
+    logger.Warnln(arguments)
 
 	yt.runningMutex.Lock()
 	defer yt.runningMutex.Unlock()
