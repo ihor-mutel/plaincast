@@ -2,9 +2,8 @@ version: "2.4"
 services:
   plaincast:
     container_name: plaincast
-    image: plaincast:test1
     restart: unless-stopped
-#     build: .
+    build: .
     environment:
       - ALSA_CARD
     network_mode: host

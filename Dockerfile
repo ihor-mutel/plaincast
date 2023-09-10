@@ -5,6 +5,6 @@ COPY . ${GOPATH}/src/github.com/ihor-mutel/plaincast/
 
 RUN go mod init plaincast
 RUN go mod tidy
-RUN go install -i .
+RUN go install .
 
 ENTRYPOINT [ "plaincast" ]
