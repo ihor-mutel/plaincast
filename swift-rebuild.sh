@@ -1,4 +1,5 @@
 git commit -m "test commit" .
 git push
-docker build -t plaincast:test1 . --no-cache
+docker rmi plaincast:test1
+docker build -t plaincast:test1 .
 docker-compose up
