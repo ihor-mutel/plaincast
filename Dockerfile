@@ -1,11 +1,12 @@
-FROM golang
+FROM golang:1.17
 
 RUN \
   apt update && \
   DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --no-install-recommends \
       libmpv-dev \
-      python-pip \
+      python3-pip \
+      python-is-python3 \
   && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
@@ -17,7 +18,8 @@ RUN \
 WORKDIR ${GOPATH}/src/github.com/aykevl/plaincast/
 COPY . ${GOPATH}/src/github.com/aykevl/plaincast/
 
-RUN go get -v .
+RUN go mod init plaincast
+RUN go mod tidy
 RUN go install -i .
 
 ENTRYPOINT [ "plaincast" ]
