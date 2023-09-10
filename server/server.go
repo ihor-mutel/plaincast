@@ -3,7 +3,7 @@ package server
 import (
 	"flag"
 
-	"github.com/ihor-mutel/plaincast/log"
+	"/go/src/github.com/ihor-mutel/plaincast/log"
 	"github.com/nu7hatch/gouuid"
 )
 
